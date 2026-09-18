@@ -1,0 +1,26 @@
+title: ""
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for open-ended discussions related to the project.
+
+        For support questions, prefer the Q&A category.
+        For concrete bugs, use the issue tracker.
+
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What would you like to discuss?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add any background, examples, references, or constraints that may help the discussion.
+    validations:
+      required: false

@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Support
+    url: https://github.com/guesant/.github/blob/main/SUPPORT.md
+    about: Read the support guidelines before requesting help.
+
+  - name: Security
+    url: https://github.com/guesant/.github/blob/main/SECURITY.md
+    about: Do not report security vulnerabilities through public issues.

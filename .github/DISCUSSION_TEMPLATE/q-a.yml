@@ -1,0 +1,34 @@
+title: ""
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for questions about installation, configuration,
+        usage, architecture, or expected behavior.
+
+        Search existing discussions and documentation before posting.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What are you trying to understand or accomplish?
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you tried?
+      description: Describe what you have already tried or investigated.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include relevant versions, configuration, errors, examples, or environment information.
+    validations:
+      required: false

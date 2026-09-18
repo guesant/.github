@@ -1,0 +1,40 @@
+title: ""
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for ideas that would benefit from discussion before
+        becoming a concrete feature request or implementation proposal.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What problem, limitation, or opportunity are you thinking about?
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: Describe the approach or direction you have in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Are there other approaches or existing solutions worth considering?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add examples, references, screenshots, or other useful information.
+    validations:
+      required: false
